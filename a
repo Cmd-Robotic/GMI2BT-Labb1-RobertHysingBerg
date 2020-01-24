@@ -1,0 +1,7 @@
+def PCGuessesNumber():
+    print('Alrighty, then pick a number and I\'ll guess!\nBut first I\'ll need some input from you between which numbers it lies\nNow enter the smallest number which your guess is between:')
+    SmallestNumber = int(input())
+    LargestNumber = int(input("Allright, then what's the largest number?"))
+    while (!Guess):
+        NewGuess = (SmallestNumber + LargestNumber) / 2 + RandomNumberGod((SmallestNumber + LargestNumber)/4, )
+        print
